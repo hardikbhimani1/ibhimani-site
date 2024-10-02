@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @keyframes marquee {
   0% {
     transform: translateX(100%);
@@ -14,5 +13,5 @@
 
 .animate-marquee {
   display: inline-block;
-  animation: marquee 15s linear infinite; /* Adjust speed as needed */
+  animation: marquee 15s linear infinite;
 }

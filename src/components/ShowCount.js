@@ -10,7 +10,6 @@ function ShowCount() {
             <h2 className="text-3xl font-bold text-blue-600">We Are Increasing Business Success</h2>
             <p className="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
           </div>
-
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <Counter targetNumber={100} label="Successfully Project Finished." />

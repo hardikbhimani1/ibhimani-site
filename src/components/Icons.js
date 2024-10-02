@@ -14,7 +14,7 @@ const Icons = () => {
         <h2 className="text-black">Our Amazing Clients</h2>
       </div>
       <div className="whitespace-nowrap animate-marquee">
-        {[...clients].map((src, index) => (
+        {[...clients, ...clients, ...clients].map((src, index) => (
           <span key={index} className="mx-4">
             <a href={src} target="_blank" rel="noopener noreferrer">
               <img
@@ -31,4 +31,3 @@ const Icons = () => {
 };
 
 export default Icons;
-
