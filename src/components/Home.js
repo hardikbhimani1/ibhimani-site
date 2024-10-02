@@ -4,8 +4,8 @@ import bgProfile from "../images/hero.png";
 const Home = () => {
   return (
     <section
-      className="bg-cover bg-center h-screen text-white relative h-auto"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      className="bg-blue-100 h-screen text-white relative h-auto"
+    //   style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="container mx-auto px-4 py-20 relative z-10 flex items-center">
         <div className="w-1/2 text-left">
